@@ -4,7 +4,9 @@ void factorial() {
     unsigned long long fact = 1;
     printf("Enter an integer: ");
     scanf("%d", &n);
-
+	
+//check job trigger
+	
     if (n < 0)
     printf("Error! Factorial of a negative number doesn't exist.");
     else {
